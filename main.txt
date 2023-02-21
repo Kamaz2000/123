@@ -1,0 +1,34 @@
+public class Main {
+public static void main(String[] args) {
+/*
+Animal Hare = new Hare();
+Animal Cat = new Cat();
+Animal Bigcat = new Bigcat();
+Hare.Talk();
+Cat.Talk();
+Bigcat.Talk();
+String[] strings = new String[6];
+strings[0] = "may";
+strings[1] = "MAAAAAAY";
+strings[2] = "OOO";
+strings[3] = "OOO";
+strings[4] = "may";
+strings[5] = "may ";
+for(int i=0;i<6;i++)
+System.out.println(String[i]);
+
+*/
+Animal[] m = new Animal[4];
+
+Hare a = new Hare();
+a.name="за€ц 1";
+Hare b = new Hare();
+Cat c = new Cat();
+m[0]=a;
+m[1]=c;
+m[2]=b;
+m[3]=a;
+for(int i=0;i<4;i++)
+m[i].Talk();
+}
+}
